@@ -8,4 +8,4 @@ if st.button('Generuj'):
         znaki = string.ascii_letters + string.digits + string.punctuation
         haslo = ''.join(random.choice(characters) for _ in range(length))
         return password
-    print(generate_password())
+    print(generate_password)
