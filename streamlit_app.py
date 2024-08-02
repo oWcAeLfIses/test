@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Hubert Lipski zajal to terytorium")
+st.title("Hubert zajal to terytorium")
 st.write(
     "cyk"
 )
