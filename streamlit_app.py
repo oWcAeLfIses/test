@@ -1,6 +1,12 @@
-import streamlit as st
 
-st.title("Hubert zajal to terytorium")
-st.write(
-    "cyk"
-)
+import streamlit as st
+import random
+import string
+st.title('Generator hasel ')
+st.button('Generuj'):
+if st.button('Generuj'):
+    def generate_password(length=16):
+    znaki = string.ascii_letters + string.digits + string.punctuation
+    haslo = ''.join(random.choice(characters) for _ in range(length))
+    return password
+    print(generate_password())
